@@ -50,4 +50,4 @@ async function createTables() {
 // Chame as funções na ordem desejada
 createDatabase()
   .then(() => createTables())
-  .catch((error) => console.error('Erro geral:', erro
+  .catch((error) => console.error('Erro geral:', error));
